@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiFinder", "TaxiFinder\TaxiFinder.csproj", "{777B297C-9AA3-43A4-B5DC-60E8043B95D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiSupplier", "TaxiSupplier\TaxiSupplier.csproj", "{327BFF9A-07A4-4AD3-B0DD-25DA507EED90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiEntities", "TaxiEntities\TaxiEntities.csproj", "{05899A15-6B76-4FE2-A648-EAD96EA0E3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiSelector", "TaxiSelector\TaxiSelector.csproj", "{619174A3-8FC1-42F0-B1A7-2BE3CE9607D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiDispatcher", "TaxiDispatcher\TaxiDispatcher.csproj", "{2B55F0C0-2BC2-41E0-85DB-38E6CD42C7D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiUI", "TaxiUI\TaxiUI.csproj", "{A8CF1BCA-A039-431D-B7E4-AF590DFB2F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "MockData\MockData.csproj", "{59A21612-DC13-4B5E-8DAD-F80866B0B013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777B297C-9AA3-43A4-B5DC-60E8043B95D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777B297C-9AA3-43A4-B5DC-60E8043B95D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777B297C-9AA3-43A4-B5DC-60E8043B95D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777B297C-9AA3-43A4-B5DC-60E8043B95D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327BFF9A-07A4-4AD3-B0DD-25DA507EED90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327BFF9A-07A4-4AD3-B0DD-25DA507EED90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327BFF9A-07A4-4AD3-B0DD-25DA507EED90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327BFF9A-07A4-4AD3-B0DD-25DA507EED90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05899A15-6B76-4FE2-A648-EAD96EA0E3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05899A15-6B76-4FE2-A648-EAD96EA0E3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05899A15-6B76-4FE2-A648-EAD96EA0E3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05899A15-6B76-4FE2-A648-EAD96EA0E3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619174A3-8FC1-42F0-B1A7-2BE3CE9607D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619174A3-8FC1-42F0-B1A7-2BE3CE9607D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619174A3-8FC1-42F0-B1A7-2BE3CE9607D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619174A3-8FC1-42F0-B1A7-2BE3CE9607D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B55F0C0-2BC2-41E0-85DB-38E6CD42C7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B55F0C0-2BC2-41E0-85DB-38E6CD42C7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B55F0C0-2BC2-41E0-85DB-38E6CD42C7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B55F0C0-2BC2-41E0-85DB-38E6CD42C7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CF1BCA-A039-431D-B7E4-AF590DFB2F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CF1BCA-A039-431D-B7E4-AF590DFB2F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CF1BCA-A039-431D-B7E4-AF590DFB2F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CF1BCA-A039-431D-B7E4-AF590DFB2F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A21612-DC13-4B5E-8DAD-F80866B0B013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A21612-DC13-4B5E-8DAD-F80866B0B013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A21612-DC13-4B5E-8DAD-F80866B0B013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A21612-DC13-4B5E-8DAD-F80866B0B013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
