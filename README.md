@@ -5,10 +5,7 @@ Estudo sobre acoplamento entre serviços em cima de um sistema apresentado em Cl
 Sistema se apresenta engessado para possíveis alterações e extensões
 
 ### Part 2: Sistema desacoplado
-Sistema se apresenta desacoplado e permite alterações sem grandes alterações
-
-### Part 3: Sistema desacoplado e alterado
-Sistema com alteração
+Sistema se apresenta desacoplado permitindo alterações e extensões
 
 ## Comandos
 ### Criar solução e adicionar projetos
@@ -21,4 +18,4 @@ Sistema com alteração
 1. dotnet add TaxiSupplier reference TaxiEntities
 
 ## Run
- - Rodar TaxiUI
+ - Rodar projeto TaxiUI
